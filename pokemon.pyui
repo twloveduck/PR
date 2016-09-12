@@ -1,0 +1,433 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{234, 710}, {1, 34}}",
+        "class" : "Slider",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "W",
+          "frame" : "{{284, 495}, {200, 34}}",
+          "value" : 0.5,
+          "class" : "Slider",
+          "name" : "slider1",
+          "uuid" : "221537FD-38DE-4F7F-8ADC-E8C6D6649932"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{243, 484}, {291, 50}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "W",
+          "action" : "self.doOkay",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Ok",
+          "class" : "Button",
+          "uuid" : "7AC0D3AB-9FCD-4CCF-B2F3-53C99F0CA803",
+          "font_bold" : true,
+          "font_size" : 15,
+          "name" : "ok_btn"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{6, 484}, {220, 50}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "self.doCancel",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Cancel",
+          "class" : "Button",
+          "font_bold" : true,
+          "uuid" : "D357A01D-D6B6-4460-84B7-FE554A2CAF41",
+          "font_size" : 15,
+          "name" : "cancel_btn"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{0, 0}, {546, 476}}",
+        "class" : "ScrollView",
+        "nodes" : [
+          {
+            "selected" : false,
+            "frame" : "{{6, 6}, {608, 174}}",
+            "class" : "ImageView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "W",
+              "border_width" : 1,
+              "frame" : "{{334, 462}, {100, 100}}",
+              "class" : "ImageView",
+              "background_color" : "RGBA(1.000000,0.700000,0.100000,1.000000)",
+              "uuid" : "51AA4913-5ED8-4DB7-80FD-97FF946E221A",
+              "corner_radius" : 1,
+              "custom_attributes" : "",
+              "name" : "poke_level_image"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{6, 268}, {150, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "font_size" : 18,
+              "frame" : "{{195, 254}, {150, 32}}",
+              "uuid" : "6FF5D7BF-41B9-496F-A90B-8B1B8E8F17CE",
+              "text" : "Pokémon Level:",
+              "alignment" : "left",
+              "class" : "Label",
+              "name" : "poke_level_lbl",
+              "font_name" : "<System>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{164, 268}, {179, 32}}",
+            "class" : "TextField",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "W",
+              "font_size" : 17,
+              "frame" : "{{170, 254}, {200, 32}}",
+              "spellchecking_type" : "no",
+              "class" : "TextField",
+              "uuid" : "F771E463-8CED-4352-A4E5-6DDA0BABE42C",
+              "alignment" : "right",
+              "autocorrection_type" : "no",
+              "name" : "poke_level_ctrl",
+              "font_name" : "<System>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{271, 268}, {150, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "font_name" : "<System>",
+              "frame" : "{{195, 254}, {150, 32}}",
+              "uuid" : "6FF5D7BF-41B9-496F-A90B-8B1B8E8F17CE",
+              "text" : "Pokémon CP:",
+              "alignment" : "left",
+              "class" : "Label",
+              "name" : "poke_cp_lbl",
+              "font_size" : 18
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{429, 268}, {179, 32}}",
+            "class" : "TextField",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "W",
+              "font_name" : "<System>",
+              "frame" : "{{170, 254}, {200, 32}}",
+              "spellchecking_type" : "no",
+              "class" : "TextField",
+              "uuid" : "F771E463-8CED-4352-A4E5-6DDA0BABE42C",
+              "alignment" : "right",
+              "autocorrection_type" : "no",
+              "name" : "poke_cp_ctrl",
+              "font_size" : 17
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{6, 308}, {150, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "name" : "poke_hp_lbl",
+              "frame" : "{{195, 254}, {150, 32}}",
+              "uuid" : "6FF5D7BF-41B9-496F-A90B-8B1B8E8F17CE",
+              "text" : "Pokémon HP:",
+              "alignment" : "left",
+              "class" : "Label",
+              "font_size" : 18,
+              "font_name" : "<System>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{271, 308}, {150, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "name" : "poke_evolution_lbl",
+              "frame" : "{{195, 254}, {150, 32}}",
+              "uuid" : "6FF5D7BF-41B9-496F-A90B-8B1B8E8F17CE",
+              "text" : "Evolution Candy:",
+              "alignment" : "left",
+              "class" : "Label",
+              "font_size" : 18,
+              "font_name" : "<System>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{6, 348}, {150, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "name" : "power_up_dust_lbl",
+              "frame" : "{{195, 254}, {150, 32}}",
+              "uuid" : "6FF5D7BF-41B9-496F-A90B-8B1B8E8F17CE",
+              "text" : "Power Up Dust:",
+              "alignment" : "left",
+              "class" : "Label",
+              "font_size" : 18,
+              "font_name" : "<System>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{271, 348}, {150, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "name" : "power_up_candy_lbl",
+              "frame" : "{{195, 254}, {150, 32}}",
+              "uuid" : "6FF5D7BF-41B9-496F-A90B-8B1B8E8F17CE",
+              "text" : "Power Up Candy:",
+              "alignment" : "left",
+              "class" : "Label",
+              "font_size" : 18,
+              "font_name" : "<System>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{6, 188}, {150, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "font_name" : "<System>",
+              "frame" : "{{195, 254}, {150, 32}}",
+              "uuid" : "6FF5D7BF-41B9-496F-A90B-8B1B8E8F17CE",
+              "text" : "Pokémon Name:",
+              "alignment" : "left",
+              "class" : "Label",
+              "name" : "poke_name_lbl",
+              "font_size" : 18
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{6, 228}, {150, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "font_name" : "<System>",
+              "frame" : "{{195, 254}, {150, 32}}",
+              "uuid" : "6FF5D7BF-41B9-496F-A90B-8B1B8E8F17CE",
+              "text" : "Pokémon Type:",
+              "alignment" : "left",
+              "class" : "Label",
+              "name" : "poke_type_1_lbl",
+              "font_size" : 18
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{164, 188}, {444, 32}}",
+            "class" : "TextField",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "W",
+              "font_name" : "<System>",
+              "frame" : "{{170, 254}, {200, 32}}",
+              "spellchecking_type" : "no",
+              "class" : "TextField",
+              "uuid" : "F771E463-8CED-4352-A4E5-6DDA0BABE42C",
+              "alignment" : "right",
+              "custom_attributes" : "",
+              "autocorrection_type" : "no",
+              "name" : "poke_level_ctrl",
+              "font_size" : 17
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{164, 228}, {444, 32}}",
+            "class" : "TextField",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "W",
+              "name" : "poke_level_ctrl",
+              "frame" : "{{170, 254}, {200, 32}}",
+              "spellchecking_type" : "no",
+              "class" : "TextField",
+              "uuid" : "F771E463-8CED-4352-A4E5-6DDA0BABE42C",
+              "alignment" : "right",
+              "autocorrection_type" : "no",
+              "font_size" : 17,
+              "font_name" : "<System>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{164, 308}, {179, 32}}",
+            "class" : "TextField",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "W",
+              "name" : "poke_hp_ctrl",
+              "frame" : "{{170, 254}, {200, 32}}",
+              "spellchecking_type" : "no",
+              "class" : "TextField",
+              "uuid" : "F771E463-8CED-4352-A4E5-6DDA0BABE42C",
+              "alignment" : "right",
+              "autocorrection_type" : "no",
+              "font_size" : 17,
+              "font_name" : "<System>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{429, 308}, {179, 32}}",
+            "class" : "TextField",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "W",
+              "name" : "poke_evol_ctrl",
+              "frame" : "{{170, 254}, {200, 32}}",
+              "spellchecking_type" : "no",
+              "class" : "TextField",
+              "uuid" : "F771E463-8CED-4352-A4E5-6DDA0BABE42C",
+              "alignment" : "right",
+              "autocorrection_type" : "no",
+              "font_size" : 17,
+              "font_name" : "<System>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{164, 348}, {179, 32}}",
+            "class" : "TextField",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "W",
+              "name" : "power_up_dust_ctrl",
+              "frame" : "{{170, 254}, {200, 32}}",
+              "spellchecking_type" : "no",
+              "class" : "TextField",
+              "uuid" : "F771E463-8CED-4352-A4E5-6DDA0BABE42C",
+              "alignment" : "right",
+              "autocorrection_type" : "no",
+              "font_size" : 17,
+              "font_name" : "<System>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{429, 348}, {179, 32}}",
+            "class" : "TextField",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "W",
+              "name" : "power_up_candy_ctrl",
+              "frame" : "{{170, 254}, {200, 32}}",
+              "spellchecking_type" : "no",
+              "class" : "TextField",
+              "uuid" : "F771E463-8CED-4352-A4E5-6DDA0BABE42C",
+              "alignment" : "right",
+              "autocorrection_type" : "no",
+              "font_size" : 17,
+              "font_name" : "<System>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{6, 388}, {524, 921}}",
+            "class" : "ImageView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "frame" : "{{218, 220}, {100, 100}}",
+              "class" : "ImageView",
+              "name" : "imageview1",
+              "uuid" : "DCB8078D-88D9-436C-A280-9745E2CD3AD3"
+            }
+          }
+        ],
+        "attributes" : {
+          "flex" : "WH",
+          "frame" : "{{110, 110}, {320, 320}}",
+          "content_width" : 602,
+          "content_height" : 1319,
+          "class" : "ScrollView",
+          "uuid" : "3F134FEA-F6B9-4782-A4EA-EC5CB28E783E",
+          "name" : "MainScrollView"
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "custom_class" : "PokeInfoView",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "PokemonInfoForm"
+    }
+  }
+]
